@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.calculator {
+    width: 450px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #202020;
+}
+
+.calculator .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #f7f7f7;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 18px;
+    color: aqua;
+    background-color: #202020;
+    cursor: pointer;
+}
